@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D3DCE6;
+    color: #183C63;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #183C63;
+    color: white;
+    padding: 25px 8%;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+header p {
+    color: #D3DCE6;
+    margin-top: 5px;
+}
+
+/* NAVIGATIE */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+nav a:hover {
+    color: #D3DCE6;
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* SECTIES */
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(24, 60, 99, 0.08);
+}
+
+section h2 {
+    color: #183C63;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+/* KNOPPEN EN LINKS */
+main a {
+    color: #365E8D;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #183C63;
+}
+
+/* FOOTER */
+footer {
+    background-color: #183C63;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/* MOBIELE WEERGAVE */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 23px;
+    }
+}
